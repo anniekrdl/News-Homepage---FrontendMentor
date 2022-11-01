@@ -1,0 +1,196 @@
+:root{
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue:hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --very-dark-grayish-blue: hsl(240, 100%, 5%);
+
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  padding: 4% 10%;
+  color: var(--dark-grayish-blue);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: none;
+  }
+
+.nav-link:hover {
+  color: var(--soft-red);
+}
+
+.image-div {
+  background-image: url('assets/images/image-web-3-desktop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  
+}
+
+.article-padding {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.new-articles {
+  background-color: var(--very-dark-grayish-blue);
+  color: white;
+}
+
+.new-articles h2 {
+  color: var(--soft-orange);
+  font-weight: 800;
+  margin-bottom: 25px;
+  
+}
+
+.new-articles h3 {
+  color: var(--off-white);
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.new-articles p {
+  color: var(--grayish-blue);
+}
+
+.head-title {
+  font-weight: 900;
+  margin-right: 10px;
+  font-size: 45px;
+  line-height: 1.1;
+  color: black;
+}
+
+.btn {
+  background-color: var(--soft-red);
+  text-transform: uppercase;
+  color: var(--off-white);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  border-radius: 0;
+  padding: 10px 18px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: var(--very-dark-grayish-blue);
+  color: white;
+  cursor: pointer;
+}
+
+.img-div-top {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120px;
+  margin: 7px;
+  
+}
+
+.photo-1 {
+  background-image: url("assets/images/image-retro-pcs.jpg");
+  
+}
+.photo-2 {
+  background-image: url("assets/images/image-top-laptops.jpg");
+  
+}
+.photo-3 {
+  background-image: url("assets/images/image-gaming-growth.jpg");
+}
+
+.top-row {
+  line-height: 1.8;
+}
+
+.top-articles {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.top-articles h3 {
+  font-weight: 800;
+  color: var(--grayish-blue);
+}
+
+.top-articles h2 {
+  font-weight: 800;
+  color: black;
+}
+
+
+.top-articles .bold {
+  font-weight: 800;
+  color: black;
+  margin-top: 18px;
+}
+
+.link-new:hover {
+  color: var(--soft-orange);
+}
+
+.bold:hover {
+  color: var(--soft-red);
+}
+
+
+
+@media (max-width: 380px) {
+  .image-div {
+    background-image: url('assets/images/image-web-3-mobile.jpg');
+    
+  }
+
+  body {
+    padding: 0 7%;
+
+  }
+  .container {
+    padding-right: 0;
+  }
+
+  .navbar-collapse {
+    max-width: 200px;
+    height: 100vh;
+    padding: 20px;
+    padding-right: 100px;
+    padding-top: 40px;
+    position: absolute;
+    background-color: white;
+    margin-right: 0;
+    top: 60px;
+    right: 0;
+  }
+
+
+  .navbar-toggler .collapse {
+    background-image: url("assets/images/icon-menu-close.svg");
+  }
+
+
+  
+}
